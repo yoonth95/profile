@@ -11,7 +11,7 @@ const Profile = () => {
         <section className='section1' id='section_profile'>
             <div className="info1">
                 <img className="profile" src={image1} alt='사진1' loading='lazy-loading'></img>
-                <div>
+                <div style={{marginTop: '5%'}}>
                     <div className="user-info">
                         <p className="user-name">윤태현</p>
                         <div style={{ display: "flex", flexDirection: "column", gap: '5px' }}>
