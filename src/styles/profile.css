@@ -1,0 +1,62 @@
+#section_profile {
+    height: calc(100vh - 232px);
+}
+
+.info1 {
+    width: 36%;
+    display: flex;
+    gap: 30px;
+    margin: 100px 0;
+    align-items: center;
+}
+
+.info1 .profile {
+    width: 200px;
+    height: 200px;
+}
+
+.info1 .user-info {
+    margin: 0 0 25px 0;
+}
+
+.info1 .user-info .user-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.info1 .user-info a {
+    margin: 5px 0 0 0;
+}
+
+.info1 div ul {
+    padding: 15px;
+}
+
+.info1 div ul li {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .info1 {
+        width: 61%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info1 {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .info1 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .info1 {
+        flex-direction: column;
+    }
+}
