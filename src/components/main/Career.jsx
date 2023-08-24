@@ -24,7 +24,7 @@ const Career = () => {
                         </div>
                         <div className='grid-timeline'>
                             <div className='items education'>한서대학교 <span>항공전자공학과</span></div>
-                            <div className='items experience'>(주)스마트디아그노시스 <span>연구원</span></div>
+                            <div className='items experience' title='(주)스마트디아그노시스 연구원'>(주)스마트디아그노시스 <span>연구원</span></div>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Career = () => {
                         <h4>연구개발팀 / 연구원</h4>
                     </div>
                     <ul className='tagList'>
-                        <li>JavaScript</li>
+                        <li>VanillaJS</li>
                         <li>Flask</li>
                         <li>MySQL</li>
                         <li>AWS</li>
@@ -71,8 +71,9 @@ const Career = () => {
                             <a href="https://testwith.co.kr/" rel="noreferrer">https://testwith.co.kr/</a>
                             <div>
                                 <ol>
-                                    <li>Vanilla JS, Flask, Node.js, MySQL을 사용해 시험 문제 관리와 응시자 관리 기능 개발</li>
-                                    <li>텍스트 에디터를 사용하여 이미지와 오디오 등의 간편한 시험 문제 생성 기능 개발</li>
+                                    <li>Vanilla JS, Flask, Node.js, MySQL을 사용해 시험 문제 관리와 응시자 관리 기능 구현</li>
+                                    <li>Flask를 통해 AWS SES를 활용하여 사용자의 엑셀에 있는 이메일 주소로 대량 발송 기능 구현</li>
+                                    <li>텍스트 에디터를 사용하여 이미지와 오디오 등의 간편한 시험 문제 생성 기능 구현</li>
                                     <li>Server-Sent Events (SSE)를 이용한 ChatGPT API의 실시간 FAQ 답변 스트리밍 구현</li>
                                 </ol>
                             </div>
@@ -83,10 +84,10 @@ const Career = () => {
                             <a href="https://kma.qualification.or.kr/" rel="noreferrer">https://kma.qualification.or.kr/</a>
                             <div>
                                 <ol>
-                                    <li>Vanilla JS, Flask, MySQL을 사용하여 기획부터 구현까지 프론트 엔드와 백엔드 개발 전체를 담당</li>
-                                    <li>video.js를 활용하여 온라인 강의 동영상 제어 기능 개발</li>
-                                    <li>강의, 시험, 과제 진행 등 수강생 페이지 개발</li>
-                                    <li>수강생, 강의, 시험, 과제 관리 등 관리자 개발</li>
+                                    <li>Vanilla JS, Flask, MySQL로 프론트엔드 및 백엔드의 전체 개발 사이클을 기획부터 구현까지 담당</li>
+                                    <li>온라인 강의 동영상에서 진도율 추적, 실시간 진도율 저장 및 다양한 제어 기능 구현</li>
+                                    <li>수강생을 위한 강의, 시험, 과제 진행 기능 구현</li>
+                                    <li>관리자 페이지에서 수강생, 강의, 시험, 과제 관리 기능을 개발</li>
                                 </ol>
                             </div>
                         </li>
@@ -96,9 +97,9 @@ const Career = () => {
                             <a href="https://testwith.co.kr/mock_student/main" rel="noreferrer">https://testwith.co.kr/mock_student/main</a>
                             <div>
                                 <ol>
-                                    <li>Vanilla JS, Flask, Node.js, MySQL을 사용해 모의고사 시험 기능 개발</li>
-                                    <li>토스페이먼츠 API를 활용해 결제 기능 구현</li>
-                                    <li>pdf.js를 활용하여 pdf 렌더링과 암호화 생성 기능 개발</li>
+                                    <li>Vanilla JS, Flask, Node.js, MySQL을 사용해 모의고사 시험 기능 구현</li>
+                                    <li>토스페이먼츠 API를 통한 안정적인 결제 시스템 구현</li>
+                                    <li>클라이언트가 첨부한 PDF를 서버에서 렌더링한 후, 암호화하여 사용자가 다운로드할 수 있도록 구현</li>
                                 </ol>
                             </div>
                         </li>
