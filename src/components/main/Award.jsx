@@ -9,7 +9,7 @@ const Award = () => {
                 <div className="award-list">
                     <div className="award-date">2023-08</div>
                     <div className="award-text">
-                        <h3>웅진 & Udemy 리액트 부트캠프 프로젝트</h3>
+                        <h3>[유데미X웅진씽크빅] React 프로젝트 캠프</h3>
                         <p>5개의 프로젝트 중 웅진씽크빅 관리자 페이지 웹 빌더 개발로 전체 2등</p>
                     </div>
                 </div>
