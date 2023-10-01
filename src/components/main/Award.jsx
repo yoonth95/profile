@@ -7,6 +7,13 @@ const Award = () => {
             {/* <h2 style={{ margin: "30px 0" }}>수상 및 s자격증</h2> */}
             <div className="award-info">
                 <div className="award-list">
+                    <div className="award-date">2023-08</div>
+                    <div className="award-text">
+                        <h3>웅진 & Udemy 리액트 부트캠프 프로젝트</h3>
+                        <p>5개의 프로젝트 중 웅진씽크빅 관리자 페이지 웹 빌더 개발로 전체 2등</p>
+                    </div>
+                </div>
+                <div className="award-list">
                     <div className="award-date">2023-04</div>
                     <div className="award-text">
                         <h3>SQLD 자격증 취득</h3>

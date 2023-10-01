@@ -22,7 +22,7 @@ const Nav = () => {
                 </li>
 
                 <li className={tab === 'career' ? 'active' : ''}>
-                    <Link to='/?tab=career'><FontAwesomeIcon icon={faBriefcase} />&nbsp; 경력</Link>
+                    <Link to='/?tab=career'><FontAwesomeIcon icon={faBriefcase} />&nbsp; 이력</Link>
                 </li>
 
                 <li className={tab === 'award' ? 'active' : ''}>

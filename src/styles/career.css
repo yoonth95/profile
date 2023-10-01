@@ -64,7 +64,7 @@
 
 .grid-timeline-labels {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     margin-bottom: 0.125rem;
 }
 
@@ -89,10 +89,10 @@
 
 .grid-timeline {
     display: grid;
-    grid-template-columns: repeat(84, 1fr);
+    grid-template-columns: repeat(72, 1fr);
     grid-auto-flow: column dense;
     grid-gap: 0.125rem;
-    padding-top: 0.25rem;
+    /* padding-top: 0.25rem; */
 }
 .grid-timeline .items {
     font-size: 12px;
@@ -102,7 +102,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 0.125rem 0.5rem;
+    padding: 0.3rem 0.5rem;
     border-radius: 0.125rem;
     text-align: center;
     background-color: #44576c;
@@ -110,22 +110,38 @@
     color: white;
 }
 
-.grid-timeline .items span {
+/* .grid-timeline .items div div span span {
+    font-style: italic;
+    opacity: .48;
+} */
+
+.addText {
     font-style: italic;
     opacity: .48;
 }
 
 .grid-timeline .items.education {
-    grid-column: 1 / 45;
+    grid-column: 1 / 39;
+    background-color: #7890A0;
+}
+
+.grid-timeline .items.active1 {
+    grid-column: 39 / 45;
+    background-color: #637c8c;
 }
 
 .grid-timeline .items.experience {
-    grid-column: 53 / 70;
+    grid-column: 48 / 66;
+}
+
+.grid-timeline .items.active2 {
+    grid-column: 66 / 69;
+    background-color: #637c8c;
 }
 
 .education-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 1000px;
@@ -134,36 +150,29 @@
     padding: 1.5rem;
 }
 
-.education-left {
-    width: 11rem;
-    max-height: 2.125rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    color: #98A8B9;
-    line-height: 1.5rem;
-}
-
 .education-left h4 {
     color: black;
     margin: 0
 }
 
-.education-left .education-priod {
+.education-priod {
+    width: 11rem;
     font-size: 0.9rem;
     margin-top: 13px;
-    line-height: 1.4;
+    line-height: 1.5rem;
+    color: #98A8B9;
 }
 
 .education-right {
     width: calc(100%);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     height: max-content;
-    padding: 0 1.5rem;
+}
+
+.education-title {
+    margin-top: 13px;
 }
 
 .education-title h3 {
@@ -179,7 +188,7 @@
 
 .experience-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 1000px;
@@ -189,15 +198,7 @@
 }
 
 .experience-left {
-    width: 11rem;
     max-height: 2.125rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    color: #98A8B9;
-    line-height: 1.5rem;
 }
 
 .experience-left h4 {
@@ -205,19 +206,28 @@
     margin: 0
 }
 
-.experience-left .experience-priod {
+.experience-priod {
+    width: 8rem;
     font-size: 0.9rem;
     margin-top: 13px;
-    line-height: 1.4;
+    color: #98A8B9;
+    line-height: 1.5rem;
 }
 
 .experience-right {
     width: calc(100%);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     height: max-content;
-    padding: 0 1.5rem;
+}
+
+.experience-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+    margin-left: 3rem;
+    width: calc(100% - 14rem);
 }
 
 .experience-title h3 {
@@ -256,7 +266,7 @@
 }
 
 .workList .workList-li {
-    margin-bottom: 15px
+    margin-bottom: 20px
 }
 
 .workList .workList-li h4 {
@@ -278,6 +288,8 @@
     margin-bottom: 10px;
     font-size: 1.1rem;
     font-style: italic;
+    overflow: hidden;
+    word-break: break-all;
 }
 .workList .workList-li div {
     line-height: 1.6;
@@ -291,6 +303,71 @@ ol li {
     margin-bottom: 5px;
 }
 
+.active-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1000px;
+    border-radius: 0.75rem;
+    border: 0.0625rem solid #E9ECF3;
+    padding: 1.5rem;
+}
+
+.active-left h4 {
+    color: black;
+    margin: 0
+}
+
+
+.active-right {
+    width: calc(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: max-content;
+}
+
+.active-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-border:not(:last-of-type) {
+    border-bottom: 0.0625rem solid #E9ECF3;
+}
+
+
+.active-priod {
+    width: 11rem;
+    font-size: 0.9rem;
+    margin-top: 13px;
+    line-height: 1.4;
+    color: #98A8B9;
+    line-height: 1.5rem;
+}
+
+.active-info {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 11rem);
+    margin: 13px 0;
+}
+
+.active-title {
+    width: calc(100% - 5rem);
+}
+
+.active-title h3 {
+    margin: 0 0 5px 0;
+}
+
+.active-title h4 {
+    margin: 0 0 5px 0;
+    font-size: 0.9rem;
+    color: #596e84;
+}
+
 @media screen and (max-width: 1090px) {
     .timeline-div {
         width: 100%;
@@ -299,6 +376,9 @@ ol li {
         width: 100%;
     }
     .experience-div {
+        width: 100%;
+    }
+    .active-div {
         width: 100%;
     }
 }
@@ -314,7 +394,25 @@ ol li {
         gap: 20px;
     }
     .experience-right {
-        padding: 2.5rem 1.5rem;
+        flex-direction: column;
+    }
+    .experience-priod {
+        width: 100%;
+    }
+    .experience-info {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .active-right {
+        flex-direction: column;
+    }
+    .active-info {
+        width: 100%;
+        margin-left: 0;
+    }
+    .active-title {
+        width: 100%;
     }
 }
 
@@ -324,5 +422,11 @@ ol li {
     }
     .timeline-right {
         width: 100%;
+    }
+    .education-right {
+        flex-direction: column;
+    }
+    .active-item {
+        flex-direction: column;
     }
 }
