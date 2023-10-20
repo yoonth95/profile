@@ -86,6 +86,7 @@ const Skill = () => {
                         <span>HTML/CSS</span>
                         <span>Vaniila JS</span>
                         <span>React</span>
+                        <span>AWS</span>
                         <span>Firebase</span>
                     </div>
                     <div className="description">
@@ -94,9 +95,9 @@ const Skill = () => {
                     </div>
                     <ul>
                         <li>팀 구성 - 개인</li>
-                        <li style={{marginTop: '20px'}}>React</li>
+                        <li style={{marginTop: '20px'}}>React, AWS</li>
                         <ul style={{paddingTop: '0'}}>
-                            <li><a href="https://egg-type.web.app/">https://egg-type.netlify.app/</a></li>
+                            <li><a href="https://egg-mbti.net/">https://egg-mbti.net/</a></li>
                             <li><a href="https://github.com/yoonth95/EBTI-React">https://github.com/yoonth95/EBTI-React</a></li>
                         </ul>
                         <li style={{marginTop: '20px'}}>VanillaJS, Firebase</li>
