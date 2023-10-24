@@ -91,12 +91,13 @@ const Skill = () => {
                     <div className="description">
                         <p>성격 유형 검사를 통해 계란 요리와 매칭 시켜서 알려준다.</p>
                         <p>기획부터 시작해서 개발 및 배포까지 1인 개발</p>
+                        <p><a href="https://velog.io/@yoonth95/%EA%B3%84%EB%9E%80-%EC%9A%94%EB%A6%AC-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%ED%85%8C%EC%8A%A4%ED%8A%B8" target='_blank' rel="noopener noreferrer">계란 요리 성격 유형 테스트 velog</a></p>
                     </div>
                     <ul>
                         <li>팀 구성 - 개인</li>
-                        <li style={{marginTop: '20px'}}>React</li>
+                        <li style={{marginTop: '20px'}}>React, AWS</li>
                         <ul style={{paddingTop: '0'}}>
-                            <li><a href="https://egg-type.web.app/">https://egg-type.netlify.app/</a></li>
+                            <li><a href="https://egg-mbti.net/">https://egg-mbti.net/</a></li>
                             <li><a href="https://github.com/yoonth95/EBTI-React">https://github.com/yoonth95/EBTI-React</a></li>
                         </ul>
                         <li style={{marginTop: '20px'}}>VanillaJS, Firebase</li>
