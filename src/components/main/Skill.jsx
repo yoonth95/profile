@@ -86,6 +86,7 @@ const Skill = () => {
                         <span>HTML/CSS</span>
                         <span>Vaniila JS</span>
                         <span>React</span>
+                        <span>AWS</span>
                         <span>Firebase</span>
                     </div>
                     <div className="description">
